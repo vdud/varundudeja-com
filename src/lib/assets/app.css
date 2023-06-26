@@ -1,0 +1,70 @@
+:root {
+	--boxShadows: 0 0 3px #0009, 0 0 5px #0006;
+	--boxShadowsBlur: 0 0 3px #2226, 0 0 9px #3333;
+	--primary: #a32cc4;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #fff;
+}
+
+/* no scrollbar */
+::-webkit-scrollbar {
+	display: none;
+}
+
+main {
+	height: 100vh;
+	width: 100vw;
+}
+
+.col {
+	color: var(--primary);
+}
+
+* {
+	font-family: 'Walkway-rounded';
+	letter-spacing: 1.5px;
+}
+h1,
+h2 {
+	font-family: 'Walkway-SemiBold';
+	letter-spacing: 1.5px;
+}
+a {
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+}
+button {
+	cursor: pointer;
+	border: none;
+	outline: none;
+	background-color: transparent;
+	color: black;
+}
+
+@font-face {
+	font-family: 'Walkway-rounded';
+	src: url(/fonts/walkway/Walkway-rounded.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'Walkway-SemiBold';
+	src: url(/fonts/walkway/Walkway-SemiBold.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'Walkway-Black';
+	src: url(/fonts/walkway/Walkway-Black.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'Walkway-Expand-UltraBold';
+	src: url(/fonts/walkway/Walkway-Expand-UltraBold.ttf) format('truetype');
+}
+
+.allHeadersForId > h1 {
+	text-align: center;
+	font-family: 'Walkway-SemiBold';
+}
