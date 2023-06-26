@@ -5,7 +5,7 @@
 </script>
 
 <div class="layout">
-	<div class="absHello">Powered by vercel</div>
+	<div class="absHello">powered by vercel</div>
 
 	<!-- LayoutBox -->
 	<div class="layoutBox">
@@ -45,6 +45,7 @@
 		position: absolute;
 		bottom: 4%;
 		left: 0;
+		font-family: 'Walkway-SemiBold';
 
 		width: 100%;
 		height: 10%;
@@ -103,7 +104,7 @@
 			overflow-y: visible;
 		}
 		.afterHeadeBoxLeft {
-			/* border-right: 0; */
+			border-right: 0;
 		}
 	}
 </style>

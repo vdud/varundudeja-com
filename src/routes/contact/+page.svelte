@@ -4,6 +4,14 @@
 	export let data: PageData;
 </script>
 
+<svelte:head>
+	<title>Contact</title>
+	<meta
+		name="description"
+		content="Contact me for any queries, or to hire me for your next project."
+	/>
+</svelte:head>
+
 <div id="contactBox">
 	<!--  -->
 

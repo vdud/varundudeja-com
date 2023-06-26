@@ -4,10 +4,10 @@
 	</div>
 	<div class="topHeader">
 		<h3 class="col">WebSite <span class="spanSeo">.</span> SEO</h3>
-	</div>
-	<div class="middleHeader">
 		<h1 class="middleHeaderH1">Creating impactful websites & building a strong online presence</h1>
 	</div>
+	<!-- <div class="middleHeader"> -->
+	<!-- </div> -->
 
 	<div class="footerTextBtn">
 		<a
@@ -42,8 +42,8 @@
 	}
 	.imgAbs {
 		position: absolute;
-		height: 300px;
-		bottom: 30px;
+		height: clamp(333px, 50vh, 366px);
+		bottom: 0;
 		/* right: 30px; */
 		z-index: 100;
 		width: 100%;
@@ -58,8 +58,9 @@
 		background-color: black;
 		padding: 5px 10px;
 		color: white;
-		border-radius: 4px;
-		font-size: clamp(0.8rem, 1vw, 2rem);
+		border: 4px solid var(--primary);
+		border-radius: 20px;
+		font-size: clamp(1.4rem, 2vw, 3rem);
 		transition: all 0.3s ease-in-out;
 	}
 	.inqBtn:hover {
@@ -75,11 +76,13 @@
 		/* margin: 5%; */
 	}
 	.footerTextBtn {
-		width: 70%;
+		position: absolute;
+		bottom: 0;
+		width: 95%;
 		display: flex;
-		margin: 5% 0;
+		margin: 1rem 0;
 		justify-content: space-between;
-		z-index: 2;
+		z-index: 101;
 	}
 	.topHeader {
 		width: 100%;
@@ -102,6 +105,7 @@
 		align-items: center;
 
 		position: relative;
+		/* margin: 5% 0; */
 	}
 	@media screen and (max-width: 768px) {
 		.leftSide {
