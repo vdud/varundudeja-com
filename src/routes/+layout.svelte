@@ -30,17 +30,18 @@
 	.afterHeadeBoxLeft {
 		border-right: 1px solid #000;
 		background-color: #eee;
+		width: 45%;
 	}
 	.afterHeadeBoxRight {
 		overflow-y: scroll;
+		width: 55%;
 	}
 	.afterHeader {
 		display: flex;
 		height: calc(100% - 90px);
 	}
-	.afterHeadeBox {
-		width: 100%;
-	}
+	/* .afterHeadeBox { */
+	/* } */
 	.absHello {
 		position: absolute;
 		bottom: 4%;
@@ -99,12 +100,15 @@
 		.layoutBox {
 			overflow-y: scroll;
 		}
-
+		.afterHeadeBox {
+			width: 100%;
+		}
 		.afterHeadeBoxRight {
 			overflow-y: visible;
 		}
 		.afterHeadeBoxLeft {
 			border-right: 0;
+			/* width: 100%; */
 		}
 	}
 </style>

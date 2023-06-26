@@ -21,6 +21,8 @@
 	</div>
 
 	<div class="imgDiv im1">
+		<div class="middleGradient md4" />
+
 		<div class="absText">
 			<div class="headerText">
 				<!-- <ImgDiv {value}> -->
@@ -53,6 +55,7 @@
 	</p>
 
 	<div class="imgDiv im2">
+		<div class="middleGradient md5" />
 		<div class="absText">
 			<div class="headerText">
 				<!-- <ImgDiv {value}> -->
@@ -86,6 +89,24 @@
 </div>
 
 <style>
+	.middleGradient {
+		width: 100%;
+		height: 100%;
+		/* background-color: red; */
+		position: absolute;
+		z-index: 0;
+		top: 0;
+		left: 0;
+		transform: translateY(40%);
+		pointer-events: none;
+	}
+	.md4 {
+		background-image: linear-gradient(0deg, #eee0 30%, var(--primary-grad1) 50%, #eee0);
+		/* 4.5 */
+	}
+	.md5 {
+		background-image: linear-gradient(0deg, #eee0 30%, var(--primary-grad5) 50%, #eee0);
+	}
 	#serviceBox {
 		background-color: #eee;
 	}
@@ -114,7 +135,7 @@
 		display: flex;
 		justify-content: center;
 		z-index: 1;
-		background-color: #1111;
+		background-color: #fff3;
 		border-radius: 6px;
 		border: 1px solid #3338;
 		/* box-shadow: var(--boxShadowsBlur); */
@@ -183,19 +204,14 @@
 
 	.imgDiv {
 		width: 100%;
-		height: clamp(300px, 60vh, 600px);
+		height: clamp(300px, 75vh, 600px);
 		position: relative;
 
 		margin: 1.3rem 0;
-		border-top: 1px dotted #3333;
-		border-bottom: 1px dotted #3333;
+		/* border-top: 1px dotted #3333;
+		border-bottom: 1px dotted #3333; */
 
-		overflow: hidden;
-	}
-	.im1 {
-		background-color: #0b51b411;
-	}
-	.im2 {
-		background-color: #b40b8711;
+		/* overflow: hidden; */
+		/* background-color: #ddd; */
 	}
 </style>

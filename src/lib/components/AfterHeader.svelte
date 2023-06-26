@@ -34,6 +34,9 @@
 </div>
 
 <style>
+	.col {
+		font-size: clamp(0.8rem, 1vw, 3rem);
+	}
 	.middleHeader {
 		z-index: 3;
 	}
@@ -42,7 +45,7 @@
 	}
 	.imgAbs {
 		position: absolute;
-		height: clamp(333px, 50vh, 366px);
+		height: clamp(100px, 70vw, 366px);
 		bottom: 0;
 		/* right: 30px; */
 		z-index: 100;
@@ -68,6 +71,8 @@
 	.inqBtn:hover {
 		background-color: var(--primary);
 		padding: 5px 24px;
+		border-top: 3px solid var(--primary);
+
 		border-radius: 30px;
 	}
 	p,
@@ -113,7 +118,7 @@
 	}
 	@media screen and (max-width: 768px) {
 		.leftSide {
-			height: 600px;
+			height: 500px;
 		}
 	}
 </style>
