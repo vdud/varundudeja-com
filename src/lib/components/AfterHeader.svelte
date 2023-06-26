@@ -55,16 +55,20 @@
 		pointer-events: none;
 	}
 	.inqBtn {
-		background-color: black;
+		background-color: #eee;
 		padding: 5px 10px;
-		color: white;
-		border: 4px solid var(--primary);
+		color: #000;
+		border: 2px solid var(--primary);
 		border-radius: 20px;
 		font-size: clamp(1.4rem, 2vw, 3rem);
-		transition: all 0.3s ease-in-out;
+		transition: all 0.1s ease-in-out;
+		box-shadow: var(--boxShadows);
+		border-top: 6px solid var(--primary);
 	}
 	.inqBtn:hover {
 		background-color: var(--primary);
+		padding: 5px 24px;
+		border-radius: 30px;
 	}
 	p,
 	h3,

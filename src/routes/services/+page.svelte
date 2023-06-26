@@ -86,6 +86,9 @@
 </div>
 
 <style>
+	#serviceBox {
+		background-color: #eee;
+	}
 	.ImgBox {
 		height: 60%;
 		width: 100%;
@@ -102,7 +105,7 @@
 	.absText {
 		position: absolute;
 		top: 0;
-		width: clamp(300px, 60%, 600px);
+		width: clamp(300px, 60%, 560px);
 		margin: 1rem;
 		/* padding: 1rem 0; */
 		height: 350px;
