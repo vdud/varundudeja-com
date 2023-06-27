@@ -2,11 +2,11 @@
 	--boxShadows: 0 0 3px #0009, 0 0 5px #0006;
 	--boxShadowsBlur: 0 0 3px #2226, 0 0 9px #3333;
 	--primary: #a32cc4;
-	--primary-grad1: #3338;
-	--primary-grad2: #3336;
-	--primary-grad3: #3334;
-	--primary-grad4: #3332;
-	--primary-grad5: #3330;
+	--primary-grad1: #8888;
+	--primary-grad2: #bbb4;
+	--primary-grad3: #ccc8;
+	--primary-grad4: #ccc6;
+	--primary-grad5: #aaa4;
 }
 
 body {
@@ -66,7 +66,7 @@ button {
 }
 @font-face {
 	font-family: 'Walkway-Expand-UltraBold';
-	src: url(/fonts/walkway/Walkway-Expand-UltraBold.ttf) format('truetype');
+	src: url('/fonts/walkway/Walkway UltraBold.ttf') format('truetype');
 }
 
 .allHeadersForId > h1 {

@@ -63,14 +63,14 @@
 		color: #000;
 		border: 2px solid var(--primary);
 		border-radius: 20px;
-		font-size: clamp(1.4rem, 2vw, 3rem);
+		font-size: clamp(1.2rem, 2vw, 3rem);
 		transition: all 0.1s ease-in-out;
 		box-shadow: var(--boxShadows);
 		border-top: 6px solid var(--primary);
 	}
 	.inqBtn:hover {
 		background-color: var(--primary);
-		padding: 5px 24px;
+		padding: 5px 15px;
 		border-top: 3px solid var(--primary);
 
 		border-radius: 30px;
