@@ -14,7 +14,6 @@
 
 <div id="projectBox">
 	<br /><br />
-	<br /><br />
 	<h2>How can I help you...</h2>
 	<br /><br />
 	<div class="helpFlex">
@@ -71,11 +70,19 @@
 		</div>
 	</div>
 	<br /><br />
-	<p>
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam consectetur asperiores
-		similique. Facilis necessitatibus fuga iure sit, distinctio provident voluptatem placeat
-		suscipit! Natus autem optio, voluptatum non saepe enim cumque!
+	<p class="centered">
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quae perferendis nesciunt
+		exercitationem possimus dolore consequatur nam id harum nemo tempora corrupti ipsum, dignissimos
+		aut veniam velit natus minima! Consequuntur.
 	</p>
+
+	<br /><br />
+	<p class="centered">
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quae perferendis nesciunt
+		exercitationem possimus dolore consequatur nam id harum nemo tempora corrupti ipsum, dignissimos
+		aut veniam velit natus minima! Consequuntur.
+	</p>
+	<br /><br />
 
 	<div class="imgDiv im2">
 		<div class="middleGradient md5" />
@@ -96,10 +103,10 @@
 	</div>
 
 	<br /><br />
-	<p>
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa sed necessitatibus in nisi
-		voluptatibus omnis quam, quos error, dignissimos laboriosam earum, quia doloremque enim repellat
-		odio nesciunt quae fugiat dolorem.
+	<p class="centered">
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quae perferendis nesciunt
+		exercitationem possimus dolore consequatur nam id harum nemo tempora corrupti ipsum, dignissimos
+		aut veniam velit natus minima! Consequuntur.
 	</p>
 
 	<div class="imgDiv im2">
@@ -121,15 +128,23 @@
 	</div>
 
 	<br /><br />
-	<p>
+	<p class="centered">
 		Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quae perferendis nesciunt
 		exercitationem possimus dolore consequatur nam id harum nemo tempora corrupti ipsum, dignissimos
 		aut veniam velit natus minima! Consequuntur.
 	</p>
-	<h1>Thankyou</h1>
+	<br />
+	<h1 class="centered">Thankyou</h1>
+	<br /><br />
 </div>
 
 <style>
+	.centered {
+		width: 80%;
+		text-align: center;
+		margin-left: 10%;
+	}
+
 	.number {
 		width: 100%;
 		height: 30%;
@@ -165,6 +180,8 @@
 	}
 	.helpFlex {
 		display: flex;
+		width: 90%;
+		margin-left: 5%;
 		/* height: 200px; */
 	}
 	/* .helpCont1 {
@@ -184,9 +201,10 @@
 		flex-direction: column;
 	}
 	p,
+	h1,
 	h2,
 	h3 {
-		margin: 0.3rem 0.6rem;
+		margin: 0.3rem 2rem;
 	}
 	h2 {
 		text-align: center;
@@ -200,14 +218,14 @@
 			flex-direction: row;
 		}
 		.number {
-			width: 20%;
+			width: 30%;
 			align-items: center;
 			justify-content: end;
 			height: 100%;
 		}
 		.description {
 			height: 100%;
-			width: 80%;
+			width: 70%;
 			align-items: start;
 			justify-content: center;
 			text-align: left;
@@ -229,7 +247,7 @@
 		background-image: linear-gradient(0deg, #eee0 20%, var(--primary-grad1) 50%, #eee0);
 	}
 	.ImgBox {
-		height: 80%;
+		height: clamp(300px, 100vw, 600px);
 		width: 100%;
 		position: absolute;
 		bottom: 0;
@@ -244,7 +262,7 @@
 	.absText {
 		position: absolute;
 		top: 0;
-		width: clamp(300px, 60%, 560px);
+		width: clamp(300px, 40%, 560px);
 		margin: 1rem;
 		/* padding: 1rem 0; */
 		height: 350px;
@@ -262,11 +280,6 @@
 	img {
 		height: 100%;
 	}
-	p,
-	h1 {
-		margin: 0.6rem;
-	}
-
 	button {
 		padding: 0;
 	}
@@ -276,7 +289,7 @@
 
 	.imgDiv {
 		width: 100%;
-		height: clamp(300px, 75vh, 600px);
+		height: clamp(500px, 90vh, 600px);
 		position: relative;
 
 		margin: 1.3rem 0;

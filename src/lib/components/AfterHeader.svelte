@@ -3,7 +3,9 @@
 		<img class="imgCont" src="/dp.webp" alt="Varun Dudeja" />
 	</div>
 	<div class="topHeader">
-		<h3 class="col">WebSite <span class="spanSeo">.</span> SEO</h3>
+		<h3 class="col">
+			WebSite <span class="spanSeo">.</span> SEO <span class="spanSeo">.</span> 3D
+		</h3>
 		<h1 class="middleHeaderH1">Creating impactful websites & building a strong online presence</h1>
 	</div>
 	<!-- <div class="middleHeader"> -->
@@ -78,7 +80,7 @@
 	p,
 	h3,
 	h1 {
-		margin: 0.6rem;
+		margin: 1.5rem;
 	}
 	.middleHeaderH1 {
 		font-size: clamp(2rem, 2vw, 6rem);

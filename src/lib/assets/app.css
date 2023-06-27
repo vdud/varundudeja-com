@@ -18,6 +18,17 @@ body {
 
 /* no scrollbar */
 ::-webkit-scrollbar {
+	/* display: none; */
+	/* border-radius: 10px; */
+	/* background-color: transparent;
+	color: red; */
+	/* bar color */
+}
+.imgDiv ::-webkit-scrollbar {
+	display: none;
+}
+
+.afterHeadeBoxLeft ::-webkit-scrollbar {
 	display: none;
 }
 

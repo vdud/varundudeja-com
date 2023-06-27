@@ -2,6 +2,11 @@
 	import '$lib/assets/app.css';
 	import AfterHeader from '../lib/components/AfterHeader.svelte';
 	import Header from '../lib/components/Header.svelte';
+
+	import { dev } from '$app/environment';
+	import { inject } from '@vercel/analytics';
+
+	inject({ mode: dev ? 'development' : 'production' });
 </script>
 
 <div class="layout">

@@ -16,6 +16,7 @@
 </svelte:head>
 
 <div id="serviceBox">
+	<br /><br />
 	<div class="allHeadersForId">
 		<h1>All Services</h1>
 	</div>
@@ -48,7 +49,7 @@
 		</div>
 	</div>
 
-	<p>
+	<p class="centered">
 		Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam, consectetur officia dolore
 		repellendus incidunt atque officiis consequatur reiciendis accusamus ipsum provident numquam
 		tenetur animi delectus nam corrupti esse, dolorum neque!
@@ -81,14 +82,21 @@
 		</div>
 	</div>
 
-	<p>
+	<p class="centered">
 		Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti at officiis unde voluptate
 		consequuntur consequatur dolor, nemo reprehenderit quisquam quas aliquid molestias repudiandae
 		delectus qui beatae ex illo rem fuga?
 	</p>
+	<br />
+	<br />
 </div>
 
 <style>
+	.centered {
+		width: 80%;
+		text-align: center;
+		margin-left: 10%;
+	}
 	.middleGradient {
 		width: 100%;
 		height: 100%;
@@ -101,17 +109,18 @@
 		pointer-events: none;
 	}
 	.md4 {
-		background-image: linear-gradient(0deg, #eee0 30%, var(--primary-grad1) 50%, #eee0);
+		background-image: linear-gradient(0deg, #eee0 20%, var(--primary-grad1) 50%, #eee0);
 		/* 4.5 */
 	}
 	.md5 {
-		background-image: linear-gradient(0deg, #eee0 30%, var(--primary-grad5) 50%, #eee0);
+		background-image: linear-gradient(0deg, #eee0 20%, var(--primary-grad5) 50%, #eee0);
 	}
 	#serviceBox {
 		background-color: #eee;
 	}
 	.ImgBox {
-		height: 60%;
+		height: clamp(300px, 100vw, 600px);
+
 		width: 100%;
 		position: absolute;
 		bottom: 0;
@@ -122,6 +131,12 @@
 	.headerText {
 		width: 90%;
 		/* margin-top: 1rem; */
+	}
+	.headerText > p,
+	.headerText > h1,
+	.headerText > button,
+	.headerText > ul {
+		margin: 0.6rem 0.3rem;
 	}
 	.absText {
 		position: absolute;
@@ -152,11 +167,12 @@
 		color: #fff;
 	}
 	.InquireBtn {
-		background-color: #000;
+		background-color: #eee;
 		padding: 0.6rem 0.9rem;
 		border-radius: 0.3rem;
 		transition: all 0.3s ease-in-out;
-		color: white;
+		color: black;
+		border: 1px solid #3338;
 	}
 	.InquireBtn:hover {
 		background-color: var(--primary);
@@ -175,12 +191,12 @@
 		letter-spacing: 2px;
 	}
 	.secondHeader {
-		font-size: clamp(1.4rem, 2vw, 2.5rem);
+		font-size: clamp(1.6rem, 2vw, 2.5rem);
 		font-family: 'Walkway-Expand-UltraBold';
 		letter-spacing: 2px;
 	}
 	.firstText {
-		font-size: 0.7rem;
+		font-size: 0.6rem;
 		font-family: 'Walkway-Black';
 		/* word-spacing: normal; */
 	}
@@ -188,7 +204,7 @@
 	h1,
 	button,
 	ul {
-		margin: 0.6rem;
+		margin: 0.3rem 2rem;
 	}
 
 	ul,
@@ -204,7 +220,7 @@
 
 	.imgDiv {
 		width: 100%;
-		height: clamp(300px, 75vh, 600px);
+		height: clamp(500px, 90vh, 600px);
 		position: relative;
 
 		margin: 1.3rem 0;
