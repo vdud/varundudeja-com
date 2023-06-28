@@ -1,5 +1,4 @@
 <script lang="ts">
-	import ImgDiv from '$lib/components/imgDiv.svelte';
 	import type { PageData } from './$types';
 
 	export let data: PageData;
@@ -45,7 +44,7 @@
 			</div>
 		</div>
 		<div class="ImgBox">
-			<img src={value} alt="default file" />
+			<img src="/work-images-blender/personal-portfolio.webp" alt="default file" />
 		</div>
 	</div>
 
@@ -78,7 +77,7 @@
 			</div>
 		</div>
 		<div class="ImgBox">
-			<img src={value} alt="default file" />
+			<img src="/work-images-blender/e-commerce.webp" alt="default file" />
 		</div>
 	</div>
 
@@ -87,8 +86,206 @@
 		consequuntur consequatur dolor, nemo reprehenderit quisquam quas aliquid molestias repudiandae
 		delectus qui beatae ex illo rem fuga?
 	</p>
-	<br />
-	<br />
+
+	<div class="imgDiv im2">
+		<div class="middleGradient md5" />
+		<div class="absText">
+			<div class="headerText">
+				<!-- <ImgDiv {value}> -->
+				<p class="col firstText">for creating an online marketplace,</p>
+				<h1 class="secondHeader">Listing Website</h1>
+				<p class="timelineText">TIMELINE: 3/4 WEEKS*</p>
+				<p class="descripTxt">
+					This package is suited for real estate agents, hotel agents, or any local listing
+					businesses that want to establish their entire business online.
+				</p>
+				<p class="descripTxt colBox">WHAT'S INCLUDED?</p>
+				<ul>
+					<li class="descripTxt">Hello</li>
+					<li class="descripTxt">Hello</li>
+					<li class="descripTxt">Hello</li>
+				</ul>
+				<button class="InquireBtn"> Inquire Now</button>
+				<!-- </ImgDiv> -->
+			</div>
+		</div>
+		<div class="ImgBox">
+			<img src="/work-images-blender/listing-websites.webp" alt="default file" />
+		</div>
+	</div>
+
+	<p class="centered">
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti at officiis unde voluptate
+		consequuntur consequatur dolor, nemo reprehenderit quisquam quas aliquid molestias repudiandae
+		delectus qui beatae ex illo rem fuga?
+	</p>
+
+	<div class="imgDiv im2">
+		<div class="middleGradient md5" />
+		<div class="absText">
+			<div class="headerText">
+				<!-- <ImgDiv {value}> -->
+				<p class="col firstText">for creating an online marketplace,</p>
+				<h1 class="secondHeader">Listing Website</h1>
+				<p class="timelineText">TIMELINE: 3/4 WEEKS*</p>
+				<p class="descripTxt">
+					This package is suited for real estate agents, hotel agents, or any local listing
+					businesses that want to establish their entire business online.
+				</p>
+				<p class="descripTxt colBox">WHAT'S INCLUDED?</p>
+				<ul>
+					<li class="descripTxt">Hello</li>
+					<li class="descripTxt">Hello</li>
+					<li class="descripTxt">Hello</li>
+				</ul>
+				<button class="InquireBtn"> Inquire Now</button>
+				<!-- </ImgDiv> -->
+			</div>
+		</div>
+		<div class="ImgBox">
+			<img src="/work-images-blender/seo.webp" alt="default file" />
+		</div>
+	</div>
+
+	<p class="centered">
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti at officiis unde voluptate
+		consequuntur consequatur dolor, nemo reprehenderit quisquam quas aliquid molestias repudiandae
+		delectus qui beatae ex illo rem fuga?
+	</p>
+
+	<div class="imgDiv im2">
+		<div class="middleGradient md5" />
+		<div class="absText">
+			<div class="headerText">
+				<!-- <ImgDiv {value}> -->
+				<p class="col firstText">for creating an online marketplace,</p>
+				<h1 class="secondHeader">Listing Website</h1>
+				<p class="timelineText">TIMELINE: 3/4 WEEKS*</p>
+				<p class="descripTxt">
+					This package is suited for real estate agents, hotel agents, or any local listing
+					businesses that want to establish their entire business online.
+				</p>
+				<p class="descripTxt colBox">WHAT'S INCLUDED?</p>
+				<ul>
+					<li class="descripTxt">Hello</li>
+					<li class="descripTxt">Hello</li>
+					<li class="descripTxt">Hello</li>
+				</ul>
+				<button class="InquireBtn"> Inquire Now</button>
+				<!-- </ImgDiv> -->
+			</div>
+		</div>
+		<div class="ImgBox">
+			<img src="/work-images-blender/website-maintainance.webp" alt="default file" />
+		</div>
+	</div>
+
+	<p class="centered">
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti at officiis unde voluptate
+		consequuntur consequatur dolor, nemo reprehenderit quisquam quas aliquid molestias repudiandae
+		delectus qui beatae ex illo rem fuga?
+	</p>
+
+	<div class="imgDiv im2">
+		<div class="middleGradient md5" />
+		<div class="absText">
+			<div class="headerText">
+				<!-- <ImgDiv {value}> -->
+				<p class="col firstText">for creating an online marketplace,</p>
+				<h1 class="secondHeader">Listing Website</h1>
+				<p class="timelineText">TIMELINE: 3/4 WEEKS*</p>
+				<p class="descripTxt">
+					This package is suited for real estate agents, hotel agents, or any local listing
+					businesses that want to establish their entire business online.
+				</p>
+				<p class="descripTxt colBox">WHAT'S INCLUDED?</p>
+				<ul>
+					<li class="descripTxt">Hello</li>
+					<li class="descripTxt">Hello</li>
+					<li class="descripTxt">Hello</li>
+				</ul>
+				<button class="InquireBtn"> Inquire Now</button>
+				<!-- </ImgDiv> -->
+			</div>
+		</div>
+		<div class="ImgBox">
+			<img src="/work-images-blender/wordpress-speed.webp" alt="default file" />
+		</div>
+	</div>
+
+	<p class="centered">
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti at officiis unde voluptate
+		consequuntur consequatur dolor, nemo reprehenderit quisquam quas aliquid molestias repudiandae
+		delectus qui beatae ex illo rem fuga?
+	</p>
+
+	<div class="imgDiv im2">
+		<div class="middleGradient md5" />
+		<div class="absText">
+			<div class="headerText">
+				<!-- <ImgDiv {value}> -->
+				<p class="col firstText">for creating an online marketplace,</p>
+				<h1 class="secondHeader">Listing Website</h1>
+				<p class="timelineText">TIMELINE: 3/4 WEEKS*</p>
+				<p class="descripTxt">
+					This package is suited for real estate agents, hotel agents, or any local listing
+					businesses that want to establish their entire business online.
+				</p>
+				<p class="descripTxt colBox">WHAT'S INCLUDED?</p>
+				<ul>
+					<li class="descripTxt">Hello</li>
+					<li class="descripTxt">Hello</li>
+					<li class="descripTxt">Hello</li>
+				</ul>
+				<button class="InquireBtn"> Inquire Now</button>
+				<!-- </ImgDiv> -->
+			</div>
+		</div>
+		<div class="ImgBox">
+			<img src="/work-images-blender/design-branding.webp" alt="default file" />
+		</div>
+	</div>
+
+	<p class="centered">
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti at officiis unde voluptate
+		consequuntur consequatur dolor, nemo reprehenderit quisquam quas aliquid molestias repudiandae
+		delectus qui beatae ex illo rem fuga?
+	</p>
+
+	<div class="imgDiv im2">
+		<div class="middleGradient md5" />
+		<div class="absText">
+			<div class="headerText">
+				<!-- <ImgDiv {value}> -->
+				<p class="col firstText">for creating an online marketplace,</p>
+				<h1 class="secondHeader">Listing Website</h1>
+				<p class="timelineText">TIMELINE: 3/4 WEEKS*</p>
+				<p class="descripTxt">
+					This package is suited for real estate agents, hotel agents, or any local listing
+					businesses that want to establish their entire business online.
+				</p>
+				<p class="descripTxt colBox">WHAT'S INCLUDED?</p>
+				<ul>
+					<li class="descripTxt">Hello</li>
+					<li class="descripTxt">Hello</li>
+					<li class="descripTxt">Hello</li>
+				</ul>
+				<button class="InquireBtn"> Inquire Now</button>
+				<!-- </ImgDiv> -->
+			</div>
+		</div>
+		<div class="ImgBox">
+			<img src="/work-images-blender/consultancy.webp" alt="default file" />
+		</div>
+	</div>
+
+	<p class="centered">
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti at officiis unde voluptate
+		consequuntur consequatur dolor, nemo reprehenderit quisquam quas aliquid molestias repudiandae
+		delectus qui beatae ex illo rem fuga?
+	</p>
+
+	<br /><br />
 </div>
 
 <style>
@@ -113,7 +310,7 @@
 		/* 4.5 */
 	}
 	.md5 {
-		background-image: linear-gradient(0deg, #eee0 20%, var(--primary-grad5) 50%, #eee0);
+		background-image: linear-gradient(0deg, #eee0 20%, var(--primary-grad1) 50%, #eee0);
 	}
 	#serviceBox {
 		background-color: #eee;
@@ -160,24 +357,27 @@
 		height: 100%;
 	}
 	.colBox {
-		background-color: black;
+		background-color: #ddd;
+		box-shadow: var(--boxInsetShadows);
 		padding: 3px 9px;
 		width: max-content;
 		border-radius: 4px;
-		color: #fff;
+		color: #000;
 	}
 	.InquireBtn {
 		background-color: #eee;
 		padding: 0.6rem 0.9rem;
 		border-radius: 0.3rem;
-		transition: all 0.3s ease-in-out;
+		transition: all 0.2s ease-in-out;
 		color: black;
 		border: 1px solid #3338;
 	}
 	.InquireBtn:hover {
 		background-color: var(--primary);
 		color: #fff;
-		box-shadow: var(--boxShadows);
+		box-shadow: var(--boxShadowsBlur);
+		padding: 0.6rem 2rem;
+		border-radius: 25px;
 	}
 	.descripTxt {
 		font-size: 0.8rem;
@@ -220,7 +420,7 @@
 
 	.imgDiv {
 		width: 100%;
-		height: clamp(500px, 90vh, 600px);
+		height: clamp(500px, 90vh, 900px);
 		position: relative;
 
 		margin: 1.3rem 0;

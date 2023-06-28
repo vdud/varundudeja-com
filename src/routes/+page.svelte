@@ -1,4 +1,5 @@
 <script lang="ts">
+	import GridServices from '$lib/components/GridServices.svelte';
 	import type { PageData } from './$types';
 
 	export let data: PageData;
@@ -27,6 +28,7 @@
 				<p>Build a Unique and Tailored Website for Your Needs.</p>
 			</div>
 		</div>
+
 		<div class="helpCont helpCont2">
 			<div class="number">
 				<h1>2</h1>
@@ -37,6 +39,7 @@
 				<p>Boost Your Website Traffic and Reach Your Target Audience.</p>
 			</div>
 		</div>
+
 		<div class="helpCont helpCont3">
 			<div class="number">
 				<h1>3</h1>
@@ -48,6 +51,7 @@
 			</div>
 		</div>
 	</div>
+
 	<br /><br />
 	<h2>Some personal projects</h2>
 	<br /><br />
@@ -66,16 +70,9 @@
 			</div>
 		</div>
 		<div class="ImgBox">
-			<img src="/work-images-blender/goa-rental-2.webp" alt="default file" />
+			<img src="/work-images-blender/goa-rentals.webp" alt="default file" />
 		</div>
 	</div>
-	<br /><br />
-	<p class="centered">
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quae perferendis nesciunt
-		exercitationem possimus dolore consequatur nam id harum nemo tempora corrupti ipsum, dignissimos
-		aut veniam velit natus minima! Consequuntur.
-	</p>
-
 	<br /><br />
 	<p class="centered">
 		Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quae perferendis nesciunt
@@ -98,7 +95,7 @@
 			</div>
 		</div>
 		<div class="ImgBox">
-			<img src="/work-images-blender/tech.webp" alt="default file" />
+			<img src="/work-images-blender/mac-products.webp" alt="default file" />
 		</div>
 	</div>
 
@@ -128,12 +125,10 @@
 	</div>
 
 	<br /><br />
-	<p class="centered">
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quae perferendis nesciunt
-		exercitationem possimus dolore consequatur nam id harum nemo tempora corrupti ipsum, dignissimos
-		aut veniam velit natus minima! Consequuntur.
-	</p>
-	<br />
+
+	<h2>my services include...</h2>
+	<GridServices />
+
 	<h1 class="centered">Thankyou</h1>
 	<br /><br />
 </div>
@@ -244,6 +239,7 @@
 		pointer-events: none;
 	}
 	.md5 {
+		z-index: 0;
 		background-image: linear-gradient(0deg, #eee0 20%, var(--primary-grad1) 50%, #eee0);
 	}
 	.ImgBox {
@@ -254,6 +250,7 @@
 		right: 0;
 		display: flex;
 		flex-direction: row-reverse;
+		z-index: 2;
 	}
 	.headerText {
 		width: 90%;

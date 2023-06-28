@@ -38,6 +38,7 @@
 		width: 45%;
 	}
 	.afterHeadeBoxRight {
+		/* overflow: hidden; */
 		overflow-y: scroll;
 		width: 55%;
 	}

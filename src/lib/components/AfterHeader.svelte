@@ -47,7 +47,7 @@
 	}
 	.imgAbs {
 		position: absolute;
-		height: clamp(100px, 70vw, 366px);
+		height: clamp(100px, 70vw, 333px);
 		bottom: 0;
 		/* right: 30px; */
 		z-index: 100;
@@ -120,7 +120,7 @@
 	}
 	@media screen and (max-width: 768px) {
 		.leftSide {
-			height: 500px;
+			height: 550px;
 		}
 	}
 </style>
