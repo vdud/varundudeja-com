@@ -13,7 +13,7 @@
 	/>
 </svelte:head>
 
-<div id="projectBox">
+<div>
 	<br /><br />
 	<h2>How can I help you...</h2>
 	<br /><br />
@@ -53,7 +53,7 @@
 	</div>
 
 	<br /><br />
-	<h2>Some personal projects</h2>
+	<h2 id="projectBox">Some personal projects</h2>
 	<br /><br />
 
 	<div class="imgDiv im2">
@@ -127,10 +127,12 @@
 	<br /><br />
 
 	<h2>my services include...</h2>
+	<br /><br />
 	<GridServices />
+	<br />
 
 	<h1 class="centered">Thankyou</h1>
-	<br /><br />
+	<br />
 </div>
 
 <style>

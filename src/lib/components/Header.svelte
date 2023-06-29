@@ -21,15 +21,9 @@
 
 <div class="header">
 	<div class="headerh2">
-		<a
-			href="/"
-			on:click={() => {
-				setTimeout(() => {
-					const contactBox = document.getElementById('projectBox');
-					contactBox?.scrollIntoView({ behavior: 'smooth' });
-				}, 100);
-			}}><h2>varun<span style="color:var(--primary); font-family:Roboto;">.</span>dudeja</h2></a
-		>
+		<a href="/">
+			<h2>varun<span style="color:var(--primary); font-family:Roboto;">.</span>dudeja</h2>
+		</a>
 	</div>
 	<div class="headerMenu">
 		<div class="list">
@@ -41,7 +35,7 @@
 							setTimeout(() => {
 								const contactBox = document.getElementById('projectBox');
 								contactBox?.scrollIntoView({ behavior: 'smooth' });
-							}, 100);
+							}, 300);
 						}}
 						href="/">Projects</a
 					>
@@ -53,7 +47,7 @@
 							setTimeout(() => {
 								const contactBox = document.getElementById('serviceBox');
 								contactBox?.scrollIntoView({ behavior: 'smooth' });
-							}, 100);
+							}, 300);
 						}}
 						href="/services">Services</a
 					>
@@ -65,7 +59,7 @@
 							setTimeout(() => {
 								const contactBox = document.getElementById('blogBox');
 								contactBox?.scrollIntoView({ behavior: 'smooth' });
-							}, 100);
+							}, 300);
 						}}
 						href="/blogs">Blogs</a
 					>
@@ -77,7 +71,7 @@
 							setTimeout(() => {
 								const contactBox = document.getElementById('contactBox');
 								contactBox?.scrollIntoView({ behavior: 'smooth' });
-							}, 100);
+							}, 300);
 						}}
 						href="/contact">Contact Me</a
 					>

@@ -46,8 +46,8 @@
 		display: flex;
 		height: calc(100% - 90px);
 	}
-	/* .afterHeadeBox { */
-	/* } */
+	.afterHeadeBox {
+	}
 	.absHello {
 		position: absolute;
 		bottom: 4%;

@@ -11,6 +11,36 @@
 	<!-- <div class="middleHeader"> -->
 	<!-- </div> -->
 
+	<div class="loopingOuter">
+		<div class="loopingInner">
+			{#each { length: 3 } as i}
+				<h1 class="loopingTxt">
+					<span>
+						Welcome to my page, where you'll see my work and learn more about how you can improve
+						your digital presence by making an exceptional display of your work.
+					</span>
+
+					<span>Here are some reviews from my clients:</span>
+
+					<span class="color">David:</span> "Varun is a great guy. He helped me with my website, and
+					I'm very happy with the results. I would recommend him to anyone who wants to improve
+					their online presence."
+
+					<span class="color">Jenny:</span> "Made my life easier by giving me support throughout the
+					completion of the website and creating customized tools for emailing all the prospects."
+
+					<span class="color">Brendon:</span> "Very technical guy with a wealth of knowledge on the
+					latest technologies to use on the website."
+
+					<span>
+						As you can see, I have a good knowledge of the latest web technologies, and I'm always
+						learning new things to provide the best service to my clients.
+					</span>
+				</h1>
+			{/each}
+		</div>
+	</div>
+
 	<div class="footerTextBtn">
 		<a
 			href="/contact"
@@ -36,6 +66,45 @@
 </div>
 
 <style>
+	.loopingOuter {
+		width: 100%;
+		overflow: hidden;
+		padding: 1rem 0;
+		transform: rotateZ(-10deg);
+		scale: 1.2;
+		/* margin-top: 5vh; */
+	}
+	.loopingInner {
+		display: flex;
+		justify-content: left;
+		align-items: center;
+	}
+	span {
+		font-family: 'Walkway-SemiBold';
+	}
+	.color {
+		color: var(--primary);
+	}
+	.loopingTxt {
+		/* inline */
+		margin: 0;
+		padding: 0;
+		font-size: 2.6rem;
+		/* no wrap */
+		white-space: nowrap;
+
+		animation: endlessScroll 300s linear infinite;
+		opacity: 0.3;
+	}
+	@keyframes endlessScroll {
+		0% {
+			transform: translateX(0%);
+		}
+		100% {
+			transform: translateX(-100%);
+		}
+	}
+
 	.col {
 		font-size: clamp(0.8rem, 1vw, 3rem);
 	}
@@ -61,11 +130,12 @@
 	}
 	.inqBtn {
 		background-color: #eee;
+		font-family: 'Walkway-SemiBold';
 		padding: 5px 10px;
 		color: #000;
 		border: 2px solid var(--primary);
 		border-radius: 20px;
-		font-size: clamp(1.2rem, 2vw, 3rem);
+		font-size: clamp(1rem, 2vw, 1.5rem);
 		transition: all 0.1s ease-in-out;
 		box-shadow: var(--boxShadows);
 		border-top: 6px solid var(--primary);
@@ -89,7 +159,7 @@
 	.footerTextBtn {
 		position: absolute;
 		bottom: 0;
-		width: 95%;
+		width: 90%;
 		display: flex;
 		margin: 1rem 0;
 		justify-content: space-between;
@@ -107,7 +177,8 @@
 	.leftSide {
 		width: 100%;
 		height: 100%;
-		overflow-y: scroll;
+		overflow: hidden;
+		/* overflow-y: scroll; */
 
 		display: flex;
 		flex-direction: column;
@@ -120,7 +191,7 @@
 	}
 	@media screen and (max-width: 768px) {
 		.leftSide {
-			height: 550px;
+			height: 86vh;
 		}
 	}
 </style>

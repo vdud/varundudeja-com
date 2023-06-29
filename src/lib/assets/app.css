@@ -85,3 +85,16 @@ button {
 	text-align: center;
 	font-family: 'Walkway-SemiBold';
 }
+
+.error {
+	color: red;
+}
+.success {
+	color: rgb(15, 108, 15);
+}
+
+#errors {
+	text-align: center;
+	height: 1rem;
+	margin-top: 1rem;
+}
