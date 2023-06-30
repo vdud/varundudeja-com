@@ -1,10 +1,5 @@
 <script lang="ts">
 	import { contactMessage } from '$lib/stores/contactMessage';
-	import type { PageData } from './$types';
-
-	export let data: PageData;
-
-	let value = '/default.png';
 
 	let maintainanceTier = 1;
 
@@ -574,7 +569,6 @@
 	.headerText > p,
 	.headerText > h1,
 	.headerText > a,
-	.headerText > button,
 	.headerText > ul {
 		margin: 0.5rem 0;
 	}

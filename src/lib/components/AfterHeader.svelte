@@ -13,7 +13,7 @@
 
 	<div class="loopingOuter">
 		<div class="loopingInner">
-			{#each { length: 3 } as i}
+			{#each { length: 3 } as _}
 				<h1 class="loopingTxt">
 					<span>
 						Welcome to my page, where you'll see my work and learn more about how you can improve
@@ -191,7 +191,7 @@
 	}
 	@media screen and (max-width: 768px) {
 		.leftSide {
-			height: 86vh;
+			height: 70vh;
 		}
 	}
 </style>

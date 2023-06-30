@@ -1,9 +1,5 @@
 <script lang="ts">
-	import type { PageData } from './$types';
 	import { contactMessage } from '$lib/stores/contactMessage';
-	import { error } from '@sveltejs/kit';
-
-	export let data: PageData;
 
 	let name = '';
 	let email = '';

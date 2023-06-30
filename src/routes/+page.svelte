@@ -60,13 +60,21 @@
 		<div class="middleGradient md5" />
 		<div class="absText">
 			<div class="headerText">
-				<h1>Hello</h1>
+				<div class="logoImg">
+					<img src="/work-images-blender/goa-rental-header.webp" alt="default file" />
+				</div>
+				<p style="font-size: .9rem; opacity:.5;">scooty/motorbike rental company...</p>
+				<br />
 				<!-- </ImgDiv> -->
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi veritatis, eos laboriosam
-					quam placeat unde alias laborum perspiciatis debitis eaque provident reiciendis,
-					dignissimos ab? Quasi quas sed corporis sint inventore.
-				</p>
+				<p>🛵 Making it easier to rent a vehicle.</p>
+				<p>🛵 Payment system</p>
+				<p>🛵 Tracking orders</p>
+				<p>🛵 Automated Emailing</p>
+
+				<br />
+				<p>check out the website here:</p>
+				<br />
+				<a href="https://www.goarentals.in">www.goarentals.in ↗</a>
 			</div>
 		</div>
 		<div class="ImgBox">
@@ -75,23 +83,32 @@
 	</div>
 	<br /><br />
 	<p class="centered">
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quae perferendis nesciunt
-		exercitationem possimus dolore consequatur nam id harum nemo tempora corrupti ipsum, dignissimos
-		aut veniam velit natus minima! Consequuntur.
+		Used <strong>Svelte.kit</strong> for the frontend and <strong>Vercel</strong> for the backend.
+		<strong>mongoDB</strong>
+		for the Database <span style="opacity: .4;">(making it easier to scale)</span>,
+		<strong>Stripe</strong>
+		for Payment System, and <strong>SMTP</strong> for Emailing.
 	</p>
 	<br /><br />
 
 	<div class="imgDiv im2">
 		<div class="middleGradient md5" />
+
 		<div class="absText">
 			<div class="headerText">
-				<h1>Hello</h1>
+				<div class="logoImg">
+					<img style="scale: 1.25;" src="/work-images-blender/w-w-logo.webp" alt="default file" />
+				</div>
 				<!-- </ImgDiv> -->
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi veritatis, eos laboriosam
-					quam placeat unde alias laborum perspiciatis debitis eaque provident reiciendis,
-					dignissimos ab? Quasi quas sed corporis sint inventore.
-				</p>
+				<h3>wassup.world</h3>
+				<p style="font-size: .9rem; opacity:.5;">a dream project...</p>
+				<p>🎯 Social Media/Dating Web.App</p>
+				<p>🎯 Location based</p>
+				<p>🎯 Barcode System</p>
+				<p>🎯 Restaurant Menu Ordering</p>
+				<p>🎯 Chat Rooms</p>
+
+				<br />
 			</div>
 		</div>
 		<div class="ImgBox">
@@ -101,22 +118,34 @@
 
 	<br /><br />
 	<p class="centered">
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quae perferendis nesciunt
-		exercitationem possimus dolore consequatur nam id harum nemo tempora corrupti ipsum, dignissimos
-		aut veniam velit natus minima! Consequuntur.
+		<span style="opacity: .6;"
+			>In todays day and age people are used to looking at phone all the time,</span
+		>
+		<strong
+			>so why not meeting people at a location like a restaurant through phone should be good idea
+			for dating.</strong
+		>
 	</p>
-
+	<br />
+	<br />
 	<div class="imgDiv im2">
 		<div class="middleGradient md5" />
 		<div class="absText">
 			<div class="headerText">
-				<h1>Hello</h1>
 				<!-- </ImgDiv> -->
+				<h3>Scan for menu...</h3>
+				<p style="font-size: .9rem; opacity:.5;">Working closely with local businesses</p>
+				<br />
 				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi veritatis, eos laboriosam
-					quam placeat unde alias laborum perspiciatis debitis eaque provident reiciendis,
-					dignissimos ab? Quasi quas sed corporis sint inventore.
+					<strong>Scan the BarCode</strong> for food menu and start talking to your love at first sight.
 				</p>
+				<br />
+				<p style="font-size: .9rem;">maybe order her some 🍷 while looking at menu...</p>
+				<br />
+				<a href="https://www.wassup.world">www.wassup.world ↗</a>
+				<br />
+				<br />
+				<p style="font-size: .7rem; opacity:.5;">too many W's so the app's gonna win...</p>
 			</div>
 		</div>
 		<div class="ImgBox">
@@ -124,18 +153,31 @@
 		</div>
 	</div>
 
+	<br />
+	<p class="centered" style="opacity: .4;">
+		So <strong>Scan the BarCode</strong>
+	</p>
+
+	<br /><br />
+	<br /><br />
 	<br /><br />
 
-	<h2>my services include...</h2>
+	<h2>My services include...</h2>
 	<br /><br />
 	<GridServices />
 	<br />
 
 	<h1 class="centered">Thankyou</h1>
 	<br />
+	<br />
+	<br />
 </div>
 
 <style>
+	.logoImg {
+		height: 2.8rem;
+		margin: 0.3rem 1.8rem;
+	}
 	.centered {
 		width: 80%;
 		text-align: center;
@@ -200,7 +242,8 @@
 	p,
 	h1,
 	h2,
-	h3 {
+	h3,
+	a {
 		margin: 0.3rem 2rem;
 	}
 	h2 {
@@ -252,16 +295,22 @@
 		right: 0;
 		display: flex;
 		flex-direction: row-reverse;
-		z-index: 2;
+		z-index: 200;
+		pointer-events: none;
 	}
 	.headerText {
-		width: 90%;
+		width: 100%;
 		/* margin-top: 1rem; */
+	}
+	.headerText a {
+		background-color: #ccc;
+		border-radius: 15px;
+		padding: 0.3rem 0.6rem;
 	}
 	.absText {
 		position: absolute;
 		top: 0;
-		width: clamp(300px, 40%, 560px);
+		width: clamp(333px, 60%, 560px);
 		margin: 1rem;
 		/* padding: 1rem 0; */
 		height: 350px;
@@ -288,7 +337,7 @@
 
 	.imgDiv {
 		width: 100%;
-		height: clamp(500px, 90vh, 600px);
+		height: clamp(500px, 90vh, 700px);
 		position: relative;
 
 		margin: 1.3rem 0;
