@@ -16,7 +16,7 @@
 		</div>
 		<div class="imgText">
 			<h2>Portfolio Websites</h2>
-			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+			<p>For New or Established Businesses.</p>
 			<a on:click={clickServiceLink.bind(globalThis, 'PortfolioId')} href="/services"
 				>Checkout Now ↗</a
 			>
@@ -29,7 +29,7 @@
 		</div>
 		<div class="imgText">
 			<h2>E-commerce Websites</h2>
-			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+			<p>for product based business who wish to sell online.</p>
 			<a on:click={clickServiceLink.bind(globalThis, 'EcomId')} href="/services">Checkout Now ↗</a>
 		</div>
 	</div>
@@ -40,7 +40,7 @@
 		</div>
 		<div class="imgText">
 			<h2>Listing Websites</h2>
-			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+			<p>for creating an online marketplace.</p>
 			<a on:click={clickServiceLink.bind(globalThis, 'ListingId')} href="/services"
 				>Checkout Now ↗</a
 			>
@@ -53,7 +53,7 @@
 		</div>
 		<div class="imgText">
 			<h2>SEO Optimization</h2>
-			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+			<p>To rank your business higher on Google.</p>
 			<a on:click={clickServiceLink.bind(globalThis, 'SEOId')} href="/services">Checkout Now ↗</a>
 		</div>
 	</div>
@@ -64,7 +64,7 @@
 		</div>
 		<div class="imgText">
 			<h2>Website Maintainance</h2>
-			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+			<p>Monthly Maintenance for any website.</p>
 			<a on:click={clickServiceLink.bind(globalThis, 'WebMaintainId')} href="/services"
 				>Checkout Now ↗</a
 			>
@@ -77,7 +77,7 @@
 		</div>
 		<div class="imgText">
 			<h2>Wordpress Speed</h2>
-			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+			<p>To build a social media presence.</p>
 			<a on:click={clickServiceLink.bind(globalThis, 'WordSpeedId')} href="/services"
 				>Checkout Now ↗</a
 			>
@@ -90,7 +90,7 @@
 		</div>
 		<div class="imgText">
 			<h2>Design & Branding</h2>
-			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+			<p>On the go design services.</p>
 			<a on:click={clickServiceLink.bind(globalThis, 'DesignId')} href="/services">Checkout Now ↗</a
 			>
 		</div>
@@ -102,7 +102,7 @@
 		</div>
 		<div class="imgText">
 			<h2>Consult</h2>
-			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+			<p>Get clarity on all your website doubts.</p>
 			<a on:click={clickServiceLink.bind(globalThis, 'ConsultId')} href="/services"
 				>Checkout Now ↗</a
 			>
