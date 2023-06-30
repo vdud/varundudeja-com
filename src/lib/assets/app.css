@@ -1,13 +1,42 @@
 :root {
-	--boxShadows: 0 0 3px #0009, 0 0 5px #0006;
+	/* --boxShadows: 0 0 3px #0009, 0 0 5px #0006;
 	--boxInsetShadows: inset 0 0 3px #0009, inset 0 0 5px #0006;
-	--boxShadowsBlur: 0 0 3px #2226, 0 0 9px #3333;
+	--boxShadowsBlur: 0 0 3px #2226, 0 0 9px #3333; */
 	--primary: #a32cc4;
 	--primary-grad1: #8888;
 	--primary-grad2: #bbb4;
 	--primary-grad3: #ccc8;
 	--primary-grad4: #ccc6;
 	--primary-grad5: #aaa4;
+
+	--fontMultiplier: 1.5;
+
+	--secondary: #1c73cb;
+	--tertiary: #bef519;
+	--optDark: #c63734;
+	--optLight: #ffeead;
+	--secOptDark: #b08daf;
+	--secOptLight: #c38387;
+	--disabled: #414141;
+
+	--red: #f12711;
+
+	--boxShadows: 0px 0px 2px #6666, 0px 0px 5px #4449;
+	--boxShadowsBlur: 0px 0px 10px #4441, 0px 0px 8px #4448;
+	--boxInsetShadows: inset 0px 0px 6px #0006, inset 0px 0px 1px #111;
+
+	--primaryTheme: #ddd;
+	--secondaryTheme: #fff;
+	--tertiaryTheme: #cbcbcb85;
+
+	--primaryThemeInverted: #000000;
+	--secondaryThemeInverted: #505050;
+	--tertiaryThemeInverted: #555555;
+
+	--boxNeoShadows: 1px 1px 2px #adadad, -1px -1px 2px #e0e0e0;
+	--boxNeoShadowsInverted: 1px 1px 2px #111111, -1px -1px 2px #414141;
+
+	--textShadows: 0px 0px 2px #9992, 0px 0px 4px #9994;
 }
 
 body {

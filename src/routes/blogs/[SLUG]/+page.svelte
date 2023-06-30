@@ -24,11 +24,23 @@
 	<meta content={image} name="twitter:image" />
 </svelte:head>
 
+<br /><br />
+
 <div class="dataContent prose">
+	<a href="/blogs" class="goBackToBlogs"> ← Back to Blogs </a>
+	<br />
 	{@html data.content}
 </div>
 
 <style>
+	.goBackToBlogs {
+		background-color: #ddd;
+		/* margin: 0 10%; */
+		padding: 0.6rem 1rem;
+		border-radius: 25px;
+		border: 1px solid #aaa;
+		box-shadow: var(--boxShadowsBlur);
+	}
 	.prose {
 		margin: 5px;
 		width: 80%;

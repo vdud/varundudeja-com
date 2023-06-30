@@ -1,0 +1,29 @@
+.prose {
+	text-align: left;
+}
+
+.prose ul {
+	background-color: #ccc;
+	width: 100%;
+	padding: 1rem 2rem;
+	border-radius: 5px;
+	box-shadow: var(--boxInsetShadows);
+}
+.prose ul li {
+	padding: 0.3rem 0.6rem;
+	text-decoration: underline;
+}
+.prose ul li::marker {
+	content: '👉';
+	text-shadow: var(--boxShadows);
+}
+
+.prose h1 {
+	text-align: center;
+	border: 1px solid #ccc;
+	padding: 1rem;
+	border-radius: 5px;
+}
+.prose h2 {
+	width: 100%;
+}

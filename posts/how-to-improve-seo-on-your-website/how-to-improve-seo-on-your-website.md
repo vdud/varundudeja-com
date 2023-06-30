@@ -5,7 +5,7 @@ slug: how-to-improve-seo-on-your-website
 published: 2023-5-10
 ---
 
-# How to Improve Seo on your website
+# Quick tips on how to improve SEO on your website
 
 ## Table of Contents
 

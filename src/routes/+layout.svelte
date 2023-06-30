@@ -1,5 +1,6 @@
 <script lang="ts">
 	import '$lib/assets/app.css';
+	import '$lib/assets/prose.css';
 	import AfterHeader from '../lib/components/AfterHeader.svelte';
 	import Header from '../lib/components/Header.svelte';
 

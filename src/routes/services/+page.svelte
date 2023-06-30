@@ -27,8 +27,10 @@
 	<br /><br />
 
 	<p class="centered">
-		I have perfectly tailored packages for your business. Explore these user-focused services below
-		that work for businesses of all shapes and sizes.
+		<span style="opacity: .6;">I have perfectly tailored packages for your business.</span>
+		<strong
+			>Explore these user-focused services below that work for businesses of all shapes and sizes.</strong
+		>
 	</p>
 
 	<div class="imgDiv im1" id="PortfolioId">
@@ -73,9 +75,25 @@
 	</div>
 
 	<p class="centered">
-		Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam, consectetur officia dolore
-		repellendus incidunt atque officiis consequatur reiciendis accusamus ipsum provident numquam
-		tenetur animi delectus nam corrupti esse, dolorum neque!
+		<strong>A portfolio website</strong>
+		<span style="opacity: .6;"
+			>is a collection of an individual's or a company's work, accomplishments, skills, and
+			experiences,
+		</span> presented in an organized and visually appealing manner.
+	</p>
+	<br />
+	<p class="centered">
+		<strong> Perfect for </strong>
+		<span style="opacity: .6;">
+			Creative Professionals, Writers and Journalists, Web Developers and Designers, Architects and
+			Interior & Fashion Designers, Freelancers and Consultants
+		</span>
+	</p>
+
+	<br />
+	<p class="centered" style="opacity: .8;">
+		If you want to do an online business or sell products online which includes a payment system and
+		all the legal procedures then you should consider an e-commerce package below
 	</p>
 
 	<div class="imgDiv im2" id="EcomId">
@@ -122,10 +140,20 @@
 	</div>
 
 	<p class="centered">
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti at officiis unde voluptate
-		consequuntur consequatur dolor, nemo reprehenderit quisquam quas aliquid molestias repudiandae
-		delectus qui beatae ex illo rem fuga?
+		<strong style="opacity: .6;">An ecommerce website</strong>
+		<span style="opacity: .4;">
+			is specifically designed for online buying and selling of products or services.
+		</span>
 	</p>
+	<br />
+	<p class="centered">
+		<strong>A listing website,</strong>
+		<span style="opacity: .6;"
+			>on the other hand, focuses on providing a comprehensive directory or catalog of various
+			items, services, or resources.
+		</span>that may or may not include payment system.
+	</p>
+	<br />
 
 	<div class="imgDiv im2" id="ListingId">
 		<div class="middleGradient md5" />
@@ -168,10 +196,15 @@
 		</div>
 	</div>
 
-	<p class="centered">
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti at officiis unde voluptate
-		consequuntur consequatur dolor, nemo reprehenderit quisquam quas aliquid molestias repudiandae
-		delectus qui beatae ex illo rem fuga? lor
+	<p class="centered" style="opacity: .5;">
+		A listing website is an online platform that serves as a directory or catalog of various items,
+		services, or resources.
+	</p>
+	<br />
+	<p class="centered" style="opacity: .7;">
+		<span style="opacity: .6;">While</span> <strong>SEO (Search Engine Optimization)</strong> refers
+		to the process of optimizing a website or its content to improve its visibility and ranking on search
+		engine result pages (SERPs).
 	</p>
 
 	<div class="imgDiv im2" id="SEOId">
@@ -213,10 +246,19 @@
 		</div>
 	</div>
 
+	<p class="centered" style="opacity: .6;">
+		The goal of SEO is to increase organic (non-paid) traffic to a website by making it more search
+		engine-friendly
+	</p>
+
+	<br />
+
 	<p class="centered">
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti at officiis unde voluptate
-		consequuntur consequatur dolor, nemo reprehenderit quisquam quas aliquid molestias repudiandae
-		delectus qui beatae ex illo rem fuga?
+		If you want more than just SEO Optimization then you should consider choosing one of the monthly
+		packages that I provide in <strong>Website Maintainance</strong>, <br /> <br />
+		<span style="opacity: .7;"
+			>which refers to the tasks required to keep your website functioning properly and up to date.</span
+		>
 	</p>
 
 	<div class="imgDiv im2" id="WebMaintainId">
@@ -327,9 +369,11 @@
 	</div>
 
 	<p class="centered">
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti at officiis unde voluptate
-		consequuntur consequatur dolor, nemo reprehenderit quisquam quas aliquid molestias repudiandae
-		delectus qui beatae ex illo rem fuga?
+		<span style="opacity: .6;"
+			>If you want to improve or optimize your website speed in one time go,</span
+		>
+		without having monthly maintainance, then you should checkout my
+		<strong>Wordpress Speed Optimization</strong> package.
 	</p>
 
 	<div class="imgDiv im2" id="WordSpeedId">
@@ -371,13 +415,15 @@
 			<img src="/work-images-blender/wordpress-speed.webp" alt="default file" />
 		</div>
 	</div>
+	<br /><br />
 
 	<p class="centered">
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti at officiis unde voluptate
-		consequuntur consequatur dolor, nemo reprehenderit quisquam quas aliquid molestias repudiandae
-		delectus qui beatae ex illo rem fuga?
+		If your existing website is not based in Wordpress, and starting everything from scratch, you
+		should have a blueprint to market your website with in consideration to your social presence and
+		SEO. Checkout my <strong>Design & Branding</strong> Package.
 	</p>
 
+	<br /><br />
 	<div class="imgDiv im2" id="DesignId">
 		<div class="middleGradient md5" />
 		<div class="absText">
@@ -417,9 +463,8 @@
 	</div>
 
 	<p class="centered">
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti at officiis unde voluptate
-		consequuntur consequatur dolor, nemo reprehenderit quisquam quas aliquid molestias repudiandae
-		delectus qui beatae ex illo rem fuga?
+		Everything checked out 🧾 still can't make up your mind? or you have goals that only you can
+		explain, don't hesitate to book a consultancy call with me.
 	</p>
 
 	<div class="imgDiv im2" id="ConsultId">
@@ -453,11 +498,20 @@
 		</div>
 	</div>
 
-	<p class="centered">
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti at officiis unde voluptate
-		consequuntur consequatur dolor, nemo reprehenderit quisquam quas aliquid molestias repudiandae
-		delectus qui beatae ex illo rem fuga?
+	<p class="centered" style="opacity: .8;">
+		You're still here? 🤔 I'm sure you have a lot of questions, I've tried to answer most of them.
 	</p>
+	<br />
+	<p class="centered">
+		<span style="opacity: .6;">Maybe Checkout my</span>
+		<a href="/blogs" style="color: blue;"><strong>Blogs</strong></a> section if you want to start on
+		your own.
+		<span style="opacity: .6;"
+			>Or you can always contact me to get some lessons in coding and web.designing</span
+		>
+	</p>
+	<br />
+	<h2 style="text-align: center;">Thank You 🙏🏽</h2>
 	<br />
 </div>
 
