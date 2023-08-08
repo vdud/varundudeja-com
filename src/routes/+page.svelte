@@ -74,7 +74,9 @@
 				<br />
 				<p>check out the website here:</p>
 				<br />
-				<a href="https://www.goarentals.in">www.goarentals.in ↗</a>
+				<a href="https://www.goarentals.in" target="_blank" rel="noopener noreferrer"
+					>www.goarentals.in ↗</a
+				>
 			</div>
 		</div>
 		<div class="ImgBox">
@@ -122,7 +124,7 @@
 			>In todays day and age people are used to looking at phone all the time,</span
 		>
 		<strong
-			>so why not meeting people at a location like a restaurant through phone should be good idea
+			>so why not meeting people at a location like a restaurant through phone, should be good idea
 			for dating.</strong
 		>
 	</p>
@@ -142,7 +144,9 @@
 				<br />
 				<p style="font-size: .9rem;">maybe order her some 🍷 while looking at menu...</p>
 				<br />
-				<a href="https://www.wassup.world">www.wassup.world ↗</a>
+				<a href="https://www.wassup.world" target="_blank" rel="noopener noreferrer"
+					>www.wassup.world ↗</a
+				>
 				<br />
 				<br />
 				<p style="font-size: .7rem; opacity:.5;">too many W's so the app's gonna win...</p>

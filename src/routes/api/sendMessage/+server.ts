@@ -6,16 +6,16 @@ import { contact } from '$lib/db/collection';
 export const POST: RequestHandler = async ({ request }) => {
 	const { name, email, phoneNumber, $contactMessage } = await request.json();
 
-	sendEmail(
+	await sendEmail(
 		'varundudeja96@gmail.com',
 		'You have a new message from your website!',
 		`Name: ${name} \nEmail: ${email} \nPhone Number: +91 ${phoneNumber} \nMessage: ${$contactMessage}`
 	);
 
-	sendEmail(
+	await sendEmail(
 		email,
 		'Regarding your message to Varun Dudeja (varundudeja.com)',
-		'I will get back to you as soon as possible. \n\nplease dont reply to this message, this is an automated message. \n\nGreetings, \nVarun Dudeja '
+		`Hey ${name} \n\nThankyou for your Interest in my services, \nI will get back to you as soon as possible. \n\nplease dont reply to this message, this is an automated message. \n\nGreetings, \nVarun Dudeja `
 	);
 
 	await contact.insertOne({

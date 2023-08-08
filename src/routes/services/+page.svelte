@@ -477,7 +477,7 @@
 				<p class="timelineText">TIMELINE: 1 Hour*</p>
 				<p class="descripTxt">
 					Unsure of what you need? Feeling stuck with your website but can't figure it out? Do you
-					have several question on how Website, SEO & SMM works? Book a 40 mins Consultation call &
+					have several question on how Website, SEO & SMM works? Book a 1 hour Consultation call &
 					get all your queries solved
 				</p>
 				<a

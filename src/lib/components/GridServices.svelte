@@ -29,7 +29,7 @@
 		</div>
 		<div class="imgText">
 			<h2>E-commerce Websites</h2>
-			<p>for product based business who wish to sell online.</p>
+			<p>For product based business who wish to sell online.</p>
 			<a on:click={clickServiceLink.bind(globalThis, 'EcomId')} href="/services">Checkout Now ↗</a>
 		</div>
 	</div>
@@ -40,7 +40,7 @@
 		</div>
 		<div class="imgText">
 			<h2>Listing Websites</h2>
-			<p>for creating an online marketplace.</p>
+			<p>For creating an online marketplace.</p>
 			<a on:click={clickServiceLink.bind(globalThis, 'ListingId')} href="/services"
 				>Checkout Now ↗</a
 			>

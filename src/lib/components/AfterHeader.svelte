@@ -69,9 +69,9 @@
 	.loopingOuter {
 		width: 100%;
 		overflow: hidden;
-		padding: 1rem 0;
-		transform: rotateZ(-10deg);
-		scale: 1.2;
+		/* padding: 1rem 0; */
+		/* transform: rotateZ(-10deg); */
+		/* scale: 1.2; */
 		/* margin-top: 5vh; */
 	}
 	.loopingInner {
@@ -89,7 +89,7 @@
 		/* inline */
 		margin: 0;
 		padding: 0;
-		font-size: 2.6rem;
+		font-size: 1rem;
 		/* no wrap */
 		white-space: nowrap;
 
@@ -167,7 +167,7 @@
 	}
 	.topHeader {
 		width: 100%;
-		margin: 5% 0;
+		/* margin: 5% 0; */
 		z-index: 4;
 	}
 	.spanSeo {
