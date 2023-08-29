@@ -61,54 +61,16 @@
 		<div class="absText">
 			<div class="headerText">
 				<div class="logoImg">
-					<img src="/work-images-blender/goa-rental-header.webp" alt="default file" />
-				</div>
-				<p style="font-size: .9rem; opacity:.5;">scooty/motorbike rental company...</p>
-				<br />
-				<!-- </ImgDiv> -->
-				<p>🛵 Making it easier to rent a vehicle.</p>
-				<p>🛵 Payment system</p>
-				<p>🛵 Tracking orders</p>
-				<p>🛵 Automated Emailing</p>
-
-				<br />
-				<p>check out the website here:</p>
-				<br />
-				<a href="https://www.goarentals.in" target="_blank" rel="noopener noreferrer"
-					>www.goarentals.in ↗</a
-				>
-			</div>
-		</div>
-		<div class="ImgBox">
-			<img src="/work-images-blender/goa-rentals.webp" alt="default file" />
-		</div>
-	</div>
-	<br /><br />
-	<p class="centered">
-		Used <strong>Svelte.kit</strong> for the frontend and <strong>Vercel</strong> for the backend.
-		<strong>mongoDB</strong>
-		for the Database <span style="opacity: .4;">(making it easier to scale)</span>,
-		<strong>Stripe</strong>
-		for Payment System, and <strong>SMTP</strong> for Emailing.
-	</p>
-	<br /><br />
-
-	<div class="imgDiv im2">
-		<div class="middleGradient md5" />
-
-		<div class="absText">
-			<div class="headerText">
-				<div class="logoImg">
 					<img style="scale: 1.25;" src="/work-images-blender/w-w-logo.webp" alt="default file" />
 				</div>
 				<!-- </ImgDiv> -->
 				<h3>wassup.world</h3>
-				<p style="font-size: .9rem; opacity:.5;">a dream project...</p>
-				<p>🎯 Social Media/Dating Web.App</p>
+				<p style="font-size: .9rem; opacity:.5;">blockchain based menu ordering, dating app...</p>
+				<p>🎯 Social media/Dating <i style="opacity: .6;">Web.App</i></p>
 				<p>🎯 Location based</p>
-				<p>🎯 Barcode System</p>
-				<p>🎯 Restaurant Menu Ordering</p>
-				<p>🎯 Chat Rooms</p>
+				<p>🎯 Barcode system</p>
+				<p>🎯 Restaurant menu ordering</p>
+				<p>🎯 Chat rooms for local businesses</p>
 
 				<br />
 			</div>
@@ -163,6 +125,42 @@
 	</p>
 
 	<br /><br />
+	<div class="imgDiv im2">
+		<div class="middleGradient md5" />
+
+		<div class="absText">
+			<div class="headerText">
+				<div class="logoImg">
+					<img src="/work-images-blender/goa-rental-header.webp" alt="default file" />
+				</div>
+				<p style="font-size: .9rem; opacity:.5;">scooty/motorbike rental company...</p>
+				<br />
+				<!-- </ImgDiv> -->
+				<p>🛵 Making it easier to rent a vehicle.</p>
+				<p>🛵 Payment system</p>
+				<p>🛵 Tracking orders</p>
+				<p>🛵 Automated Emailing</p>
+
+				<br />
+				<p>check out the website here:</p>
+				<br />
+				<a href="https://www.goarentals.in" target="_blank" rel="noopener noreferrer"
+					>www.goarentals.in ↗</a
+				>
+			</div>
+		</div>
+		<div class="ImgBox">
+			<img src="/work-images-blender/goa-rentals.webp" alt="default file" />
+		</div>
+	</div>
+	<br /><br />
+	<p class="centered">
+		Used <strong>Svelte.kit</strong> for the frontend and <strong>Vercel</strong> for the backend.
+		<strong>mongoDB</strong>
+		for the Database <span style="opacity: .4;">(making it easier to scale)</span>,
+		<strong>Stripe</strong>
+		for Payment System, and <strong>SMTP</strong> for Emailing.
+	</p>
 	<br /><br />
 	<br /><br />
 

@@ -6,7 +6,9 @@
 	let phoneNumber = '';
 
 	const sendMessage = async () => {
-		console.log('Message sent!');
+		const errors = document.getElementById('errors') as HTMLDivElement;
+		errors.innerHTML = 'Sending Your Mail... Hold On';
+		// errors.classList.add('success');
 		console.log($contactMessage);
 		if (name === '' || email === '' || phoneNumber === '' || $contactMessage === '') {
 			const errors = document.getElementById('errors') as HTMLDivElement;
@@ -20,7 +22,7 @@
 			errors.classList.add('error');
 			return;
 		}
-		if (phoneNumber.length !== 10 || isNaN(Number(phoneNumber))) {
+		if (isNaN(Number(phoneNumber))) {
 			const errors = document.getElementById('errors') as HTMLDivElement;
 			errors.innerHTML = 'Please enter a valid phone number';
 			errors.classList.add('error');
@@ -40,7 +42,16 @@
 			const errors = document.getElementById('errors') as HTMLDivElement;
 			errors.innerHTML = 'Mail Sent';
 			errors.classList.add('success');
+		} else {
+			const errors = document.getElementById('errors') as HTMLDivElement;
+			errors.innerHTML = 'Mail not sent';
+			errors.classList.add('error');
 		}
+		setTimeout(() => {
+			errors.innerHTML = '';
+			errors.classList.remove('error');
+			errors.classList.remove('success');
+		}, 5000);
 	};
 </script>
 

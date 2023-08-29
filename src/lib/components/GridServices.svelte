@@ -101,7 +101,7 @@
 			<img src="/work-images-blender/logos/consult-logo.webp" alt="" />
 		</div>
 		<div class="imgText">
-			<h2>Consult</h2>
+			<h2>Consult (FREE)</h2>
 			<p>Get clarity on all your website doubts.</p>
 			<a on:click={clickServiceLink.bind(globalThis, 'ConsultId')} href="/services"
 				>Checkout Now ↗</a
