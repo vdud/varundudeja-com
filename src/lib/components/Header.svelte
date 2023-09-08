@@ -26,7 +26,7 @@
 		</a>
 	</div>
 	<div class="headerMenu">
-		<div class="list">
+		<nav class="list">
 			<ul class="ulList" id="ulList">
 				<li>
 					<a
@@ -77,7 +77,7 @@
 					>
 				</li>
 			</ul>
-		</div>
+		</nav>
 
 		<div class="menuIconOnly">
 			<button on:click={showMenu}> <i class="fa fa-bars" /></button>
