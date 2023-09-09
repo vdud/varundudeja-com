@@ -9,7 +9,7 @@
 	<title>Varun : Portfolio : Web Designer : SEO</title>
 	<meta
 		name="description"
-		content="Portfolio Website for a coder, web designer, search engine optimisation and digital marketer."
+		content="Elevate your online presence with our top-tier web design and marketing solutions. From stunning websites to SEO magic, we've got you covered."
 	/>
 </svelte:head>
 

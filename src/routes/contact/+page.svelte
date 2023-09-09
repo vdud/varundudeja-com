@@ -56,10 +56,10 @@
 </script>
 
 <svelte:head>
-	<title>Contact</title>
+	<title>Contact Web Designer</title>
 	<meta
 		name="description"
-		content="Contact me for any queries, or to hire me for your next project."
+		content="Get started with a free consultation. Discover how our web design and SEO services can transform your online presence."
 	/>
 </svelte:head>
 

@@ -14,7 +14,7 @@
 	<title>Services</title>
 	<meta
 		name="description"
-		content="All the services that I provide, from web design to SEO and digital marketing."
+		content="All the services that I provide, from web design to SEO and digital marketing. Specializing in e-commerce web design and SEO. Boost your online store's visibility and revenue with our tailored solutions."
 	/>
 </svelte:head>
 
