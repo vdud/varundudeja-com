@@ -60,6 +60,30 @@
 		<div class="middleGradient md5" />
 		<div class="absText">
 			<div class="headerText">
+				<!-- <div class="logoImg">
+					<img style="scale: 1.25;" src="/work-images-blender/w-w-logo.webp" alt="default file" />
+				</div> -->
+				<!-- </ImgDiv> -->
+				<a href="https://www.cryptotambola.com">Crypto Tambola ↗</a>
+				<p style="font-size: .9rem; opacity:.5;">blockchain based crypto game...</p>
+				<p>🎰 Play starting with Rs. 10</p>
+				<p>🎰 Most famous crypto game</p>
+				<p>🎰 Open-source</p>
+				<p>🎰 Play2Earn</p>
+				<p>🎰 Host2Earn</p>
+
+				<br />
+			</div>
+		</div>
+		<div class="ImgBox">
+			<img src="/work-images-blender/tambola-render.webp" alt="default file" />
+		</div>
+	</div>
+
+	<div class="imgDiv im2">
+		<div class="middleGradient md5" />
+		<div class="absText">
+			<div class="headerText">
 				<div class="logoImg">
 					<img style="scale: 1.25;" src="/work-images-blender/w-w-logo.webp" alt="default file" />
 				</div>
@@ -144,9 +168,9 @@
 				<br />
 				<p>check out the website here:</p>
 				<br />
-				<a href="https://www.goarentals.in" target="_blank" rel="noopener noreferrer"
-					>www.goarentals.in ↗</a
-				>
+				<a href="https://www.goarentals.in" target="_blank" rel="noopener noreferrer">
+					www.goarentals.in ↗
+				</a>
 			</div>
 		</div>
 		<div class="ImgBox">
@@ -307,8 +331,9 @@
 	.headerText a {
 		background-color: #ccc;
 		border-radius: 15px;
-		padding: 0.3rem 0.6rem;
+		padding: 0.2rem 0.6rem;
 	}
+
 	.absText {
 		position: absolute;
 		top: 0;
