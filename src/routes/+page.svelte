@@ -66,9 +66,9 @@
 				<!-- </ImgDiv> -->
 				<a href="https://www.cryptotambola.com">Crypto Tambola ↗</a>
 				<p style="font-size: .9rem; opacity:.5;">blockchain based crypto game...</p>
+				<p>🎰 Up'n'coming Indian crypto game</p>
 				<p>🎰 Play starting with Rs. 10</p>
-				<p>🎰 Most famous crypto game</p>
-				<p>🎰 Open-source</p>
+				<p>🎰 Opensource</p>
 				<p>🎰 Play2Earn</p>
 				<p>🎰 Host2Earn</p>
 
