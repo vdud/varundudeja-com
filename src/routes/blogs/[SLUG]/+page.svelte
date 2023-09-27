@@ -1,9 +1,18 @@
 <script lang="ts">
 	import { fileUrl, postImage, siteName, siteUrl } from '$lib/api/config';
+	import { afterHeader } from '$lib/stores/afterHeader.js';
+	import { onDestroy, onMount } from 'svelte';
 
 	export let data;
 
 	let image = `${postImage}${encodeURIComponent(data.frontmatter.title)}.png`;
+
+	onMount(() => {
+		afterHeader.set(false);
+	});
+	onDestroy(() => {
+		afterHeader.set(true);
+	});
 </script>
 
 <svelte:head>

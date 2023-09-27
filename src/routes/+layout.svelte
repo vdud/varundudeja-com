@@ -1,11 +1,12 @@
 <script lang="ts">
 	import '$lib/assets/app.css';
 	import '$lib/assets/prose.css';
-	import AfterHeader from '../lib/components/AfterHeader.svelte';
+	import { afterHeader } from '$lib/stores/afterHeader';
 	import Header from '../lib/components/Header.svelte';
 
 	import { dev } from '$app/environment';
 	import { inject } from '@vercel/analytics';
+	import AfterHeader from '$lib/components/AfterHeader.svelte';
 
 	inject({ mode: dev ? 'development' : 'production' });
 </script>
@@ -22,7 +23,9 @@
 
 		<div class="afterHeader">
 			<div class="afterHeadeBox afterHeadeBoxLeft">
-				<AfterHeader />
+				{#if $afterHeader}
+					<AfterHeader />
+				{/if}
 			</div>
 
 			<div class="afterHeadeBox afterHeadeBoxRight">

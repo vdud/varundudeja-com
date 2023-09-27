@@ -73,7 +73,7 @@
 								contactBox?.scrollIntoView({ behavior: 'smooth' });
 							}, 300);
 						}}
-						href="/contact">Contact Me</a
+						href="/mytech">My Tech</a
 					>
 				</li>
 			</ul>
