@@ -4,9 +4,11 @@
 	</div>
 	<div class="topHeader">
 		<h3 class="col">
-			WebSite <span class="spanSeo">.</span> SEO <span class="spanSeo">.</span> 3D
+			Web <span class="spanSeo">.</span> Coding <span class="spanSeo">.</span> 3D
 		</h3>
-		<h1 class="middleHeaderH1">Creating impactful websites & building a strong online presence</h1>
+		<h1 class="middleHeaderH1">
+			Crafting Powerful Websites and Forging a Resilient Online Identity.
+		</h1>
 	</div>
 	<!-- <div class="middleHeader"> -->
 	<!-- </div> -->
@@ -22,15 +24,16 @@
 
 					<span>Here are some reviews from my clients:</span>
 
-					<span class="color">David:</span> "Varun is a great guy. He helped me with my website, and
-					I'm very happy with the results. I would recommend him to anyone who wants to improve
-					their online presence."
+					<span class="color">David:</span>
+					"Varun is a great guy. He helped me with my website, and I'm very happy with the results. I
+					would recommend him to anyone who wants to improve their online presence."
 
-					<span class="color">Jenny:</span> "Made my life easier by giving me support throughout the
-					completion of the website and creating customized tools for emailing all the prospects."
+					<span class="color">Jenny:</span>
+					"Made my life easier by giving me support throughout the completion of the website and creating
+					customized tools for emailing all the prospects."
 
-					<span class="color">Brendon:</span> "Very technical guy with a wealth of knowledge on the
-					latest technologies to use on the website."
+					<span class="color">Brendon:</span>
+					"Very technical guy with a wealth of knowledge on the latest technologies to use on the website."
 
 					<span>
 						As you can see, I have a good knowledge of the latest web technologies, and I'm always

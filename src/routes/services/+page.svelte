@@ -27,9 +27,12 @@
 	<br /><br />
 
 	<p class="centered">
-		<span style="opacity: .6;">I have perfectly tailored packages for your business.</span>
-		<strong
-			>Explore these user-focused services below that work for businesses of all shapes and sizes.</strong
+		<span style="opacity: .6;"
+			>I offer meticulously tailored packages designed specifically for your unique business needs.</span
+		>
+		<strong>
+			Discover these user-centric services below, thoughtfully designed to benefit businesses of
+			every size and type.</strong
 		>
 	</p>
 
@@ -39,12 +42,13 @@
 		<div class="absText">
 			<div class="headerText">
 				<!-- <ImgDiv {value}> -->
+
 				<p class="col firstText">For New or Established Businesses,</p>
-				<h1 class="secondHeader">Portfolio Websites</h1>
+				<h1 class="secondHeader">Artist</h1>
 				<p class="timelineText">TIMELINE: 2/3 WEEKS*</p>
 				<p class="descripTxt">
-					Are you wanting to grow your business, attract ideal clients, multiply your revenue &
-					stand-out from all your competitors? This is the plan you choose.
+					For emerging stars, put your best foot forward and exhibit your offerings to the world
+					through your dynamic portfolio website.
 				</p>
 				<p class="descripTxt colBox">WHAT'S INCLUDED?</p>
 				<ul>
@@ -102,12 +106,12 @@
 			<div class="headerText">
 				<!-- <ImgDiv {value}> -->
 				<p class="col firstText">for product based business who wish to sell online,</p>
-				<h1 class="secondHeader">E-Commerce Websites</h1>
+				<h1 class="secondHeader">Web Entrepreneur</h1>
 				<p class="timelineText">TIMELINE: 3/4 WEEKS*</p>
 				<p class="descripTxt">
-					This package is suited for e-commerce businesses that are looking for a unique &
-					customized online store, to attract their dream customers, generate more sales & have
-					better conversions!
+					This package is tailor-made for e-commerce enterprises seeking a distinctive and
+					personalized online store. It's designed to captivate their ideal customers, drive
+					increased sales, and deliver superior conversion rates.
 				</p>
 				<p class="descripTxt colBox">WHAT'S INCLUDED?</p>
 				<ul>
@@ -161,11 +165,12 @@
 			<div class="headerText">
 				<!-- <ImgDiv {value}> -->
 				<p class="col firstText">for creating an online marketplace,</p>
-				<h1 class="secondHeader">Listing Website</h1>
+				<h1 class="secondHeader">Real Estate</h1>
 				<p class="timelineText">TIMELINE: 3/4 WEEKS*</p>
 				<p class="descripTxt">
-					This package is suited for real estate agents, hotel agents, or any local listing
-					businesses that want to establish their entire business online.
+					This package is designed with real estate agents, hoteliers, and all local listing
+					businesses in mind. It empowers them to establish a comprehensive online presence for
+					their entire operation.
 				</p>
 				<p class="descripTxt colBox">WHAT'S INCLUDED?</p>
 				<ul>
@@ -213,11 +218,11 @@
 			<div class="headerText">
 				<!-- <ImgDiv {value}> -->
 				<p class="col firstText">To rank your business higher on Google,</p>
-				<h1 class="secondHeader">SEO Optimization</h1>
+				<h1 class="secondHeader">Get Views by SEO</h1>
 				<p class="timelineText">TIMELINE: 2 WEEKS*</p>
 				<p class="descripTxt">
-					Struggling To Rank Higher On Google? I will work on your existing website to ensure all
-					proper SEO tools are in place!
+					Facing Challenges Ranking Higher on Google? I'll enhance your existing website, ensuring
+					it's equipped with all the necessary SEO tools for success!
 				</p>
 				<p class="descripTxt colBox">WHAT'S INCLUDED?</p>
 				<ul>
@@ -267,9 +272,12 @@
 			<div class="headerText">
 				<!-- <ImgDiv {value}> -->
 				<p class="col firstText">Monthly Maintenance for any website,</p>
-				<h1 class="secondHeader">Website Maintainance</h1>
+				<h1 class="secondHeader">Website Engineering</h1>
 				<p class="timelineText">TIMELINE: Monthly*</p>
-				<p class="descripTxt">These are packages for website maintenance curated for your needs.</p>
+				<p class="descripTxt">
+					These are meticulously crafted website maintenance packages designed to cater to your
+					specific needs, going beyond just SEO.
+				</p>
 
 				<div class="threeBtn">
 					<button
@@ -376,51 +384,10 @@
 		<strong>Wordpress Speed Optimization</strong> package.
 	</p>
 
-	<div class="imgDiv im2" id="WordSpeedId">
-		<div class="middleGradient md5" />
-		<div class="absText">
-			<div class="headerText">
-				<!-- <ImgDiv {value}> -->
-				<p class="col firstText">To build a social media presence,</p>
-				<h1 class="secondHeader">Wordpress Speed Optimization</h1>
-				<p class="timelineText">TIMELINE: 2 WEEKS*</p>
-				<p class="descripTxt">
-					Make your website speed optimized so you don't have to lose out on potential customers.
-					Also, faster websites improve SEO which means your website will be seen further up in the
-					Google search results.
-				</p>
-				<p class="descripTxt colBox">WHAT'S INCLUDED?</p>
-				<ul>
-					<li class="descripTxt">Image Compression</li>
-					<li class="descripTxt">Minifying CSS & JS</li>
-					<li class="descripTxt">Loading JS Asynchronously</li>
-					<li class="descripTxt">Disable Unnecessary Assets</li>
-					<li class="descripTxt">Simplifying Page Structure</li>
-					<li class="descripTxt">Removing Unnecessary Plugins</li>
-				</ul>
-				<a
-					href="/contact"
-					on:click={sendInq.bind(
-						globalThis,
-						'Hello Varun! \nI would like to get some information on improving my wordpress website, optimizing it and all the good things, '
-					)}
-					class="InquireBtn"
-				>
-					<span>Inquire Now</span></a
-				>
-				<!-- </ImgDiv> -->
-			</div>
-		</div>
-		<div class="ImgBox">
-			<img src="/work-images-blender/wordpress-speed.webp" alt="default file" />
-		</div>
-	</div>
-	<br /><br />
+	<br />
 
 	<p class="centered">
-		If your existing website is not based in Wordpress, and starting everything from scratch, you
-		should have a blueprint to market your website with in consideration to your social presence and
-		SEO. Checkout my <strong>Design & Branding</strong> Package.
+		Explore my <strong>Design & Branding</strong> Package – it's custom-crafted to elevate your web aesthetics.
 	</p>
 
 	<br /><br />
@@ -433,8 +400,8 @@
 				<h1 class="secondHeader">Design & Branding</h1>
 				<p class="timelineText">TIMELINE: Based on scope*</p>
 				<p class="descripTxt">
-					Few of the creative offerings extend far beyond the base packages, hence providing a list
-					of services that can be offered individually.
+					Some of our creative offerings go beyond the standard packages, offering a range of
+					services that can also be provided individually.
 				</p>
 				<p class="descripTxt colBox">WHAT'S INCLUDED?</p>
 				<ul>
@@ -516,6 +483,9 @@
 </div>
 
 <style>
+	.InquireBtn span {
+		padding-bottom: 1rem;
+	}
 	.InquireBtn {
 		background-color: #eee;
 		padding: 0.6rem 0.9rem;

@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-	<title>Varun : Portfolio : Web Designer : SEO</title>
+	<title>Varun : Portfolio : Web Designer</title>
 	<meta
 		name="description"
 		content="Elevate your online presence with our top-tier web design and marketing solutions. From stunning websites to SEO magic, we've got you covered."
@@ -235,18 +235,19 @@
 	}
 	.description > h3 {
 		font-family: 'Walkway-Expand-UltraBold';
-		font-size: 1.1rem;
+		font-size: 0.9rem;
 		color: #000;
 	}
 	.description > p {
 		font-family: 'Walkway-SemiBold';
-		font-size: 0.8rem;
+		font-size: 0.6rem;
 		color: #888;
 	}
 	.helpFlex {
 		display: flex;
-		width: 90%;
-		margin-left: 5%;
+		/* align-items: center; */
+		justify-content: space-around;
+		width: 100%;
 		/* height: 200px; */
 	}
 	/* .helpCont1 {

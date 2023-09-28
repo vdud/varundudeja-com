@@ -15,8 +15,8 @@
 			<img src="/work-images-blender/logos/portfolio-website-logo.webp" alt="" />
 		</div>
 		<div class="imgText">
-			<h2>Portfolio Websites</h2>
-			<p>For New or Established Businesses.</p>
+			<h2>Artist</h2>
+			<p>For the upcoming star, showcase what you have to offer to the public</p>
 			<a on:click={clickServiceLink.bind(globalThis, 'PortfolioId')} href="/services"
 				>Checkout Now ↗</a
 			>
@@ -28,7 +28,7 @@
 			<img src="/work-images-blender/logos/ecommerce-logo.webp" alt="" />
 		</div>
 		<div class="imgText">
-			<h2>E-commerce Websites</h2>
+			<h2>Web Entrepreneur</h2>
 			<p>For product based business who wish to sell online.</p>
 			<a on:click={clickServiceLink.bind(globalThis, 'EcomId')} href="/services">Checkout Now ↗</a>
 		</div>
@@ -39,7 +39,7 @@
 			<img src="/work-images-blender/logos/listing-website-logo.webp" alt="" />
 		</div>
 		<div class="imgText">
-			<h2>Listing Websites</h2>
+			<h2>Real Estate</h2>
 			<p>For creating an online marketplace.</p>
 			<a on:click={clickServiceLink.bind(globalThis, 'ListingId')} href="/services"
 				>Checkout Now ↗</a
@@ -52,7 +52,7 @@
 			<img src="/work-images-blender/logos/seo-logo.webp" alt="" />
 		</div>
 		<div class="imgText">
-			<h2>SEO Optimization</h2>
+			<h2>Get Views by SEO</h2>
 			<p>To rank your business higher on Google.</p>
 			<a on:click={clickServiceLink.bind(globalThis, 'SEOId')} href="/services">Checkout Now ↗</a>
 		</div>
@@ -63,22 +63,9 @@
 			<img src="/work-images-blender/logos/website-maintainance-logo.webp" alt="" />
 		</div>
 		<div class="imgText">
-			<h2>Website Maintainance</h2>
+			<h2>Website Engineering</h2>
 			<p>Monthly Maintenance for any website.</p>
 			<a on:click={clickServiceLink.bind(globalThis, 'WebMaintainId')} href="/services"
-				>Checkout Now ↗</a
-			>
-		</div>
-	</div>
-
-	<div class="serviceContainer">
-		<div class="ImgCont">
-			<img src="/work-images-blender/logos/wordpress-speed.webp" alt="" />
-		</div>
-		<div class="imgText">
-			<h2>Wordpress Speed</h2>
-			<p>To build a social media presence.</p>
-			<a on:click={clickServiceLink.bind(globalThis, 'WordSpeedId')} href="/services"
 				>Checkout Now ↗</a
 			>
 		</div>
@@ -96,7 +83,7 @@
 		</div>
 	</div>
 
-	<div class="serviceContainer">
+	<div class="serviceContainer consultService">
 		<div class="ImgCont">
 			<img src="/work-images-blender/logos/consult-logo.webp" alt="" />
 		</div>
@@ -163,9 +150,13 @@
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-rows: repeat(4, 1fr);
-		grid-gap: 10px;
+		/* grid-gap: 10px; */
 		/* background-color: #2196F3; */
 		padding: 10px;
+	}
+
+	.consultService {
+		width: 200%;
 	}
 
 	.imgText > p {
@@ -209,6 +200,10 @@
 			width: 85%;
 			margin-left: 5%;
 			/* border: 1px solid #aaa; */
+		}
+
+		.consultService {
+			width: 100%;
 		}
 	}
 </style>

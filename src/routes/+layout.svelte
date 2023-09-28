@@ -22,11 +22,11 @@
 		</div>
 
 		<div class="afterHeader">
-			<div class="afterHeadeBox afterHeadeBoxLeft">
-				{#if $afterHeader}
+			{#if $afterHeader}
+				<div class="afterHeadeBox afterHeadeBoxLeft">
 					<AfterHeader />
-				{/if}
-			</div>
+				</div>
+			{/if}
 
 			<div class="afterHeadeBox afterHeadeBoxRight">
 				<slot />
@@ -44,7 +44,8 @@
 	.afterHeadeBoxRight {
 		/* overflow: hidden; */
 		overflow-y: scroll;
-		width: 55%;
+		width: 100%;
+		overflow-x: hidden;
 	}
 	.afterHeader {
 		display: flex;
@@ -114,7 +115,7 @@
 			width: 100%;
 		}
 		.afterHeadeBoxRight {
-			overflow-y: visible;
+			overflow: visible;
 		}
 		.afterHeadeBoxLeft {
 			border-right: 0;
